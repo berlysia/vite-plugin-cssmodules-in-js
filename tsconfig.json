@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    /* Projects */
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    /* Language and Environment */
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+
+    /* Interop Constraints */
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "references": [
+    { "path": "./packages/plugin" },
+    { "path": "./packages/sample" }
+  ],
+  "files": []
+}
